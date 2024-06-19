@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Samoilă Vitalie">
+  <title>VitCons</title>
+
+  <link href="./output.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/src/icon.png">
+  <script src="script.js" defer></script>
+</head>
+<body class="overflow-x-hidden">
+  <nav class="flex items-center justify-between py-9 px-[5.7vw]">
+    <a href="#s1" class="flex items-center gap-4">
+      <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.2538 0.892791L23.2558 0.89402C24.0329 1.36849 24.5007 2.21163 24.5007 3.1236V10.1551V10.6551H25.0007H33.6924H34.0787L34.1762 10.2813C34.4722 9.1468 35.4994 8.31124 36.7199 8.31124H45.3139C47.6257 8.31124 49.5015 10.1871 49.5015 12.4989C49.5015 14.8107 47.6257 16.6865 45.3139 16.6865H36.7199C35.4994 16.6865 34.4722 15.851 34.1762 14.7165L34.0787 14.3427H33.6924H25.0007H24.5007V14.8427V21.8742C24.5007 22.7861 24.0329 23.6293 23.2558 24.1037C22.4715 24.5826 21.5125 24.629 20.7045 24.2209L20.7027 24.22L1.95218 14.8447L1.95053 14.8439C1.05809 14.4018 0.5 13.4925 0.5 12.4989C0.5 11.5053 1.05809 10.596 1.95053 10.1539L1.95217 10.153L20.7027 0.777763L20.7045 0.776854C21.5134 0.368319 22.4811 0.416054 23.2538 0.892791ZM28.6258 24.9993C28.6258 23.5468 29.7985 22.3742 31.2509 22.3742H46.8764C48.3288 22.3742 49.5015 23.5468 49.5015 24.9993V31.2494C49.5015 32.7019 48.3288 33.8745 46.8764 33.8745H31.2509C29.7985 33.8745 28.6258 32.7019 28.6258 31.2494V24.9993ZM3.12509 37.9996H12.5004C13.9528 37.9996 15.1255 39.1723 15.1255 40.6247V46.8749C15.1255 48.3273 13.9528 49.5 12.5004 49.5H3.12509C1.67267 49.5 0.5 48.3273 0.5 46.8749V40.6247C0.5 39.1723 1.67267 37.9996 3.12509 37.9996ZM21.8757 37.9996H46.8764C48.3288 37.9996 49.5015 39.1723 49.5015 40.6247V46.8749C49.5015 48.3273 48.3288 49.5 46.8764 49.5H21.8757C20.4232 49.5 19.2506 48.3273 19.2506 46.8749V40.6247C19.2506 39.1723 20.4232 37.9996 21.8757 37.9996Z" fill="#182853" stroke="#182853"/>
+      </svg>
+      <p class="font-semibold text-2xl lg:text-4xl text-cBlue">VitCons</p>  
+    </a>
+    <div class="text-cBlue xl:text-2xl hidden gap-7 font-medium lg:flex">
+      <a class="a" href="#s2">Despre noi</a>
+      <a class="a" href="#s3">Virtuți</a>
+      <a class="a" href="#s4">Proiecte</a>
+    </div>
+    <a class="text-cBlue cont xl:text-2xl hidden lg:block font-medium border-2 border-cBlue px-3 rounded-full" href="#s5">Contactează-ne</a>
+    <div class="burger flex flex-col gap-1 lg:hidden cursor-pointer">
+      <div class="h-[3px] w-[30px] rounded-full bg-cBlue"></div>
+      <div class="h-[3px] w-[30px] rounded-full bg-cBlue"></div>
+      <div class="h-[3px] w-[30px] rounded-full bg-cBlue"></div>
+    </div>
+  </nav>
+  <main>
+    <section id="s1mobile" class="w-screen relative p-5 lg:hidden border-b-8 border-cOrange flex flex-col">
+      <h1 class="font-bold text-[40px] text-cBlue">CONSTRUIEȘTE <br> ÎMPREUNĂ CU NOI</h1>
+      <p class="text-cBlue font-bold">Noi îți vom face casa visurilor tale.</p>
+      <div class="flex text-sm mt-4">
+        <a href="#s5" class="flex items-center text-white bg-cOrange gap-1 px-2 rounded-full">CONTACTEAZĂ-NE
+          <svg width="13" height="12" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.40127 10.3867C7.47506 14.16 10.8162 17.2533 14.8917 19.1733L18.06 16.24C18.4633 15.8667 19.0249 15.76 19.529 15.9067C21.1419 16.4 22.8701 16.6667 24.6702 16.6667C25.0522 16.6667 25.4185 16.8071 25.6886 17.0572C25.9586 17.3072 26.1104 17.6464 26.1104 18V22.6667C26.1104 23.0203 25.9586 23.3594 25.6886 23.6095C25.4185 23.8595 25.0522 24 24.6702 24C18.1771 24 11.95 21.6119 7.35867 17.3611C2.76736 13.1103 0.187988 7.34491 0.187988 1.33333C0.187988 0.979711 0.339716 0.640573 0.609793 0.390524C0.879871 0.140476 1.24617 0 1.62812 0H6.66858C7.05053 0 7.41684 0.140476 7.68691 0.390524C7.95699 0.640573 8.10872 0.979711 8.10872 1.33333C8.10872 3 8.39674 4.6 8.92959 6.09333C9.08801 6.56 8.9728 7.08 8.56956 7.45333L5.40127 10.3867Z" fill="white"/>
+          </svg>
+        </a>
+        <a href="#s4" class="flex items-center border-2 border-cBlue ml-2 px-2 rounded-full">VEZI LUCRĂRILE NOASTRE
+          <svg width="17" height="12" viewBox="0 0 35 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M34.1611 11.0229C34.02 10.8189 30.6557 5.976 26.013 2.66571C23.6058 0.946285 20.5696 0 17.4654 0C14.3629 0 11.3267 0.946285 8.91434 2.66571C4.27163 5.976 0.910716 10.8189 0.769615 11.0229C0.571824 11.31 0.46582 11.6512 0.46582 12.0009C0.46582 12.3505 0.571824 12.6917 0.769615 12.9789C0.910716 13.1829 4.27163 18.0257 8.91434 21.336C11.3267 23.0537 14.3629 24 17.4654 24C20.5696 24 23.6058 23.0537 26.013 21.3343C30.6557 18.024 34.02 13.1811 34.1611 12.9771C34.3595 12.6905 34.4658 12.3495 34.4658 12C34.4658 11.6505 34.3595 11.3095 34.1611 11.0229ZM17.4654 18C14.1776 18 11.5154 15.3086 11.5154 12C11.5154 8.68457 14.1776 6 17.4654 6C20.7464 6 23.4154 8.68457 23.4154 12C23.4154 15.3086 20.7464 18 17.4654 18ZM20.8654 12C20.8654 13.8891 19.3388 15.4286 17.4654 15.4286C16.7929 15.4286 16.1356 15.2275 15.5764 14.8508C15.0173 14.474 14.5815 13.9385 14.3242 13.3121C14.0668 12.6856 13.9995 11.9962 14.1307 11.3311C14.2619 10.666 14.5857 10.0551 15.0612 9.57563C15.5367 9.09614 16.1425 8.7696 16.8021 8.63731C17.4616 8.50502 18.1452 8.57291 18.7665 8.83241C19.3878 9.09191 19.9188 9.53136 20.2924 10.0952C20.666 10.659 20.8654 11.3219 20.8654 12Z" fill="#182853"/>
+          </svg>
+        </a>
+      </div>
+      <div class="flex flex-col text-cBlue mt-[25px] xl:mt-[45px] gap-8">
+        <div class="flex flex-col">
+          <h2 class="font-semibold text-[40px] 2xl:text-[64px]">78+</h2>
+          <h3 class="font-medium text-2xl 2xl:text-[40px]">Proiecte realizate</h3>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="font-semibold text-[40px] 2xl:text-[64px]">120+</h2>
+          <h3 class="font-medium text-2xl 2xl:text-[40px]">Specialiști</h3>
+        </div>
+      </div>
+      <img src="./src/image1.png" alt="constructor" class="absolute h-[260px] bottom-0 translate-x-24">
+    </section>
+    <section id="s1" class="w-screen bg-cOrange p-9 lg:flex hidden">
+      <div class="size-full bg-white py-[6vh] pl-[3.8vw] rounded-[36px] relative mx-auto">
+        <div class="el absolute hidden xl:block bg-[#F7D6C8] top-[4vh] right-0 h-[19vh] w-[34vw]"></div>
+        <div class="el absolute hidden xl:block bg-[#F7D6C8] top-[28vh] right-0 h-[19vh] w-[20vw]"></div>
+        <img src="./src/image1.png" alt="constructor" class="absolute bottom-0 right-0 h-[70vh] hidden xl:block">
+          <h1 class="text-cBlue text-[2rem] lg:text-[4.5rem] xl:text-[5.5rem] 2xl:text-[6.5rem] font-bold leading-snug">CONSTRUIEȘTE <br> ÎMPREUNĂ CU NOI</h1>
+          <p class="text-xl lg:text-2xl font-bold text-cBlue">Noi îți vom face casa visurilor tale.</p>
+          <div class="font-bold text-xs xl:text-base 2xl:text-2xl relative mt-8 gap-6 flex">
+            <a href="#s5" class="org text-white bg-cOrange gap-2 items-center rounded-xl border-cOrange border-4 py-3 px-8 flex">
+              CONTACTEAZĂ-NE
+              <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.40127 10.3867C7.47506 14.16 10.8162 17.2533 14.8917 19.1733L18.06 16.24C18.4633 15.8667 19.0249 15.76 19.529 15.9067C21.1419 16.4 22.8701 16.6667 24.6702 16.6667C25.0522 16.6667 25.4185 16.8071 25.6886 17.0572C25.9586 17.3072 26.1104 17.6464 26.1104 18V22.6667C26.1104 23.0203 25.9586 23.3594 25.6886 23.6095C25.4185 23.8595 25.0522 24 24.6702 24C18.1771 24 11.95 21.6119 7.35867 17.3611C2.76736 13.1103 0.187988 7.34491 0.187988 1.33333C0.187988 0.979711 0.339716 0.640573 0.609793 0.390524C0.879871 0.140476 1.24617 0 1.62812 0H6.66858C7.05053 0 7.41684 0.140476 7.68691 0.390524C7.95699 0.640573 8.10872 0.979711 8.10872 1.33333C8.10872 3 8.39674 4.6 8.92959 6.09333C9.08801 6.56 8.9728 7.08 8.56956 7.45333L5.40127 10.3867Z" fill="white"/>
+              </svg>
+            </a>
+            <a href="#s4" class="cont rounded-xl border-4 flex gap-2 items-center border-cBlue text-cBlue py-3 px-8">
+              VEZI LUCRĂRILE NOASTRE
+              <svg width="35" height="24" viewBox="0 0 35 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M34.1611 11.0229C34.02 10.8189 30.6557 5.976 26.013 2.66571C23.6058 0.946285 20.5696 0 17.4654 0C14.3629 0 11.3267 0.946285 8.91434 2.66571C4.27163 5.976 0.910716 10.8189 0.769615 11.0229C0.571824 11.31 0.46582 11.6512 0.46582 12.0009C0.46582 12.3505 0.571824 12.6917 0.769615 12.9789C0.910716 13.1829 4.27163 18.0257 8.91434 21.336C11.3267 23.0537 14.3629 24 17.4654 24C20.5696 24 23.6058 23.0537 26.013 21.3343C30.6557 18.024 34.02 13.1811 34.1611 12.9771C34.3595 12.6905 34.4658 12.3495 34.4658 12C34.4658 11.6505 34.3595 11.3095 34.1611 11.0229ZM17.4654 18C14.1776 18 11.5154 15.3086 11.5154 12C11.5154 8.68457 14.1776 6 17.4654 6C20.7464 6 23.4154 8.68457 23.4154 12C23.4154 15.3086 20.7464 18 17.4654 18ZM20.8654 12C20.8654 13.8891 19.3388 15.4286 17.4654 15.4286C16.7929 15.4286 16.1356 15.2275 15.5764 14.8508C15.0173 14.474 14.5815 13.9385 14.3242 13.3121C14.0668 12.6856 13.9995 11.9962 14.1307 11.3311C14.2619 10.666 14.5857 10.0551 15.0612 9.57563C15.5367 9.09614 16.1425 8.7696 16.8021 8.63731C17.4616 8.50502 18.1452 8.57291 18.7665 8.83241C19.3878 9.09191 19.9188 9.53136 20.2924 10.0952C20.666 10.659 20.8654 11.3219 20.8654 12Z" fill="#182853"/>
+              </svg>          
+            </a>
+          </div>
+          <div class="flex text-cBlue mt-[25px] xl:mt-[45px] gap-8">
+            <div class="flex flex-col">
+              <h2 class="font-semibold text-[40px] 2xl:text-[64px]" id="projects">0</h2>
+              <h3 class="font-medium text-2xl 2xl:text-[40px]">Proiecte realizate</h3>
+            </div>
+            <div class="flex flex-col">
+              <h2 class="font-semibold text-[40px] 2xl:text-[64px]" id="specialists">0</h2>
+              <h3 class="font-medium text-2xl 2xl:text-[40px]">Specialiști</h3>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="s2" class="flex-col xl:flex-row xl:items-start items-center flex p-[20px] xl:p-[5.7vw]">
+      <div class="flex gap-[4vh] flex-col text-cBlue xl:mr-[5vw] w-full lg:w-1/2">
+        <h2 class="font-bold text-[32px] lg:text-[70px]">Dedicație, expreriență
+          și pasiune pentru
+          perfecțiune.</h2>
+        <p class="font-medium text-base mb-4 lg:mb-0 lg:text-xl">
+          VitCons este o e <span class="font-bold">companie de construcții</span> dedicată transformării dorințelor clienților în realitate printr-o colaborare strânsă și servicii personalizate. <br><br>
+          Cu o echipă de profesioniști experimentați, ne concentrăm pe oferirea de <span class="font-bold">soluții inovatoare</span> și eficiente pentru proiecte <span class="font-bold">rezidențiale, comerciale și industriale.</span>  Utilizăm tehnologii avansate și <span class="font-bold">materiale de calitate superioară</span> pentru a asigura durabilitatea și estetica construcțiilor, adoptând totodată practici sustenabile pentru protejarea mediului. La <span>VitCons</span>, clientul este întotdeauna pe primul loc, iar relațiile durabile și <span class="font-bold">satisfacția totală</span> sunt pilonii activității noastre.</p>
+      </div>
+      <div class="relative h-full w-1/2">
+        <img src="src/image2.png" alt="constructie" class="h-full w-full my-auto">
+      </div>
+    </section>
+    <section id="s3" class="px-[20px] lg:px-[5.7vw] h-fit 2xl:h-[60vh] w-screen">
+      <div class="bg-cOrange rounded-[36px] py-[24px] lg:py-[100px] px-4 lg:px-[4vw] h-full w-full">
+        <h1 class="text-[28px] lg:text-5xl xl:text-8xl text-white">Noi <span class="font-bold">Construim</span> cu <span class="font-bold">Pasiune</span></h1>
+        <div class="flex items-center justify-center 2xl:flex-row flex-col gap-[7.5vw] mt-[8vh]">
+          <div class="flex flex-col">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 12.1667L19.7917 2L47.75 12.1667M2 12.1667V24.875L29.9583 35.0417L47.75 24.875V12.1667M2 12.1667L29.9583 22.3333L47.75 12.1667" stroke="white" stroke-width="2.54167" stroke-linejoin="round"/>
+              <path d="M2 24.875V37.5833L29.9583 47.75L47.75 37.5833V24.875" stroke="white" stroke-width="2.54167" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="font-semibold text-[28px] text-white text-nowrap">Materiale inovative</h3>
+            <p class="text-white text-[20px] font-medium text-nowrap mt-[2vh]">Pentru casa ta alegem <br> cele mai bune materiale.</p>  
+          </div>
+          <div class="flex flex-col">
+            <svg width="53" height="50" viewBox="0 0 53 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M49.5 3.3V29.7H3.3V3.3H49.5ZM52.8 0H0V33H52.8V0Z" fill="white"/>
+              <path d="M26.4001 6.59998C32.0101 6.59998 36.3001 10.89 36.3001 16.5C36.3001 22.11 32.0101 26.4 26.4001 26.4H42.9001V23.1H46.2001V9.89998H42.9001V6.59998H26.4001ZM16.5001 16.5C16.5001 10.89 20.7901 6.59998 26.4001 6.59998H9.9001V9.89998H6.6001V23.1H9.9001V26.4H26.4001C20.7901 26.4 16.5001 22.11 16.5001 16.5Z" fill="white"/>
+            </svg>
+            <h3 class="font-semibold text-[28px] text-white text-nowrap">Cel mai bun preț</h3>
+            <p class="text-white text-[20px] font-medium text-nowrap mt-[2vh]">Noi oferim cel mai bun preț <br> pe piață.</p>  
+          </div>
+          <div class="flex flex-col w-[274px]">
+            <svg width="44" height="50" viewBox="0 0 44 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.9821 2V36.4V2ZM21.9821 45V36.4V45ZM21.9821 36.4L28.4321 42.85L21.9821 36.4ZM21.9821 36.4L15.5321 42.85L21.9821 36.4ZM28.4321 4.15L21.9821 10.6L15.5321 4.15M3.3631 12.75L10.8107 17.05L3.3631 12.75ZM10.8107 17.05L33.1535 29.95L10.8107 17.05ZM10.8107 17.05L8.45 8.2393L10.8107 17.05ZM10.8107 17.05L2 19.4107L10.8107 17.05ZM33.1535 29.95L40.6011 34.25L33.1535 29.95ZM33.1535 29.95L41.9642 27.5893L33.1535 29.95ZM33.1557 29.95L35.5163 38.7629L33.1557 29.95ZM40.6011 12.75L33.1535 17.05L40.6011 12.75ZM33.1535 17.05L10.8107 29.95L33.1535 17.05ZM33.1535 17.05L35.5142 8.2393L33.1535 17.05ZM33.1535 17.05L41.9642 19.4107L33.1535 17.05ZM10.8107 29.95L3.3631 34.25L10.8107 29.95ZM10.8107 29.95L2 27.5893L10.8107 29.95ZM10.8107 29.95L8.45 38.765L10.8107 29.95Z" fill="white"/>
+              <path d="M21.9821 2V36.4M21.9821 36.4V45M21.9821 36.4L28.4321 42.85M21.9821 36.4L15.5321 42.85M28.4321 4.15L21.9821 10.6L15.5321 4.15M3.3631 12.75L10.8107 17.05M10.8107 17.05L33.1535 29.95M10.8107 17.05L8.45 8.2393M10.8107 17.05L2 19.4107M33.1535 29.95L40.6011 34.25M33.1535 29.95L41.9642 27.5893M33.1557 29.95L35.5163 38.7629M40.6011 12.75L33.1535 17.05M33.1535 17.05L10.8107 29.95M33.1535 17.05L35.5142 8.2393M33.1535 17.05L41.9642 19.4107M10.8107 29.95L3.3631 34.25M10.8107 29.95L2 27.5893M10.8107 29.95L8.45 38.765" stroke="white" stroke-width="3.225" stroke-linecap="round"/>
+            </svg>
+            <h3 class="font-semibold text-[28px] text-white text-nowrap">Cele mai bune condiții</h3>
+            <p class="text-white text-[20px] font-medium text-nowrap mt-[2vh]">Casa ta va rezista orice <br> provocare meteorologică.</p>   
+          </div>
+          <div class="flex flex-col">
+            <svg width="43" height="50" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.5 0C33.3745 0 43 9.62555 43 21.5C43 33.3745 33.3745 43 21.5 43C9.62555 43 0 33.3745 0 21.5C0 9.62555 9.62555 0 21.5 0ZM21.5 4.3C16.9383 4.3 12.5634 6.11214 9.33776 9.33776C6.11214 12.5634 4.3 16.9383 4.3 21.5C4.3 26.0617 6.11214 30.4366 9.33776 33.6622C12.5634 36.8879 16.9383 38.7 21.5 38.7C26.0617 38.7 30.4366 36.8879 33.6622 33.6622C36.8879 30.4366 38.7 26.0617 38.7 21.5C38.7 16.9383 36.8879 12.5634 33.6622 9.33776C30.4366 6.11214 26.0617 4.3 21.5 4.3ZM21.5 8.6C22.0266 8.60007 22.5349 8.79341 22.9284 9.14334C23.3219 9.49327 23.5733 9.97546 23.635 10.4985L23.65 10.75V20.6099L29.4701 26.43C29.8556 26.8169 30.0795 27.336 30.0962 27.882C30.1129 28.428 29.9211 28.9599 29.5598 29.3696C29.1985 29.7793 28.6949 30.0362 28.1511 30.088C27.6073 30.1398 27.0642 29.9826 26.6321 29.6485L26.43 29.4701L19.98 23.0201C19.6458 22.6856 19.4312 22.2504 19.3694 21.7817L19.35 21.5V10.75C19.35 10.1798 19.5765 9.63292 19.9797 9.22972C20.3829 8.82652 20.9298 8.6 21.5 8.6Z" fill="white"/>
+            </svg>
+            <h3 class="font-semibold text-[28px] text-white text-nowrap">Cel mai rapid</h3>
+            <p class="text-white text-[20px] font-medium text-nowrap mt-[2vh]">Asigurăm construirea cât <br> mai rapidă a casei tale.</p>   
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="s4" class="my-20 px-[5.6vw] w-screen h-fit">
+      <div class="w-full flex justify-between items-center">
+        <h1 class="text-cBlue text-[32px] xl:text-[96px] font-medium">Proiectele noastre</h1>
+        <div class="xl:flex gap-4 hidden">
+          <button id="leftArrow" class="border-2 size-12 -rotate-90 border-cBlue rounded-full flex justify-center items-center">
+            <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.4264 32C10.4264 32.8691 11.1309 33.5736 12 33.5736C12.8691 33.5736 13.5736 32.8691 13.5736 32L10.4264 32ZM13.1127 0.887289C12.4982 0.272758 11.5018 0.272758 10.8873 0.887289L0.872916 10.9017C0.258384 11.5162 0.258384 12.5126 0.872916 13.1271C1.48745 13.7416 2.4838 13.7416 3.09833 13.1271L12 4.22541L20.9017 13.1271C21.5162 13.7416 22.5126 13.7416 23.1271 13.1271C23.7416 12.5126 23.7416 11.5162 23.1271 10.9017L13.1127 0.887289ZM13.5736 32L13.5736 2L10.4264 2L10.4264 32L13.5736 32Z" fill="#182853"/>
+            </svg> 
+          </button>
+          <button id="rightArrow" class="border-2 size-12 rotate-90 border-cBlue rounded-full flex justify-center items-center">
+            <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.4264 32C10.4264 32.8691 11.1309 33.5736 12 33.5736C12.8691 33.5736 13.5736 32.8691 13.5736 32L10.4264 32ZM13.1127 0.887289C12.4982 0.272758 11.5018 0.272758 10.8873 0.887289L0.872916 10.9017C0.258384 11.5162 0.258384 12.5126 0.872916 13.1271C1.48745 13.7416 2.4838 13.7416 3.09833 13.1271L12 4.22541L20.9017 13.1271C21.5162 13.7416 22.5126 13.7416 23.1271 13.1271C23.7416 12.5126 23.7416 11.5162 23.1271 10.9017L13.1127 0.887289ZM13.5736 32L13.5736 2L10.4264 2L10.4264 32L13.5736 32Z" fill="#182853"/>
+            </svg> 
+          </button>
+        </div>  
+      </div>
+      <div id="carousel" class="flex xl:flex-row flex-col w-full xl:w-[200vw] gap-6 text-cBlue font-medium text-base xl:text-[32px] items-center">
+        <div class="post">
+          <img src="./src/casa1.png" alt="casa1" class="size-full xl:size-[77vh]">
+          <div class="flex justify-between items-end">
+            <h4 class="text-2xl xl:text-5xl">Strășeni</h4>
+            <p>160 m<sup>2</sup></p>
+            <p>2 dormitoare</p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./src/casa2.png" alt="casa2" class="size-full xl:size-[77vh]">
+          <div class="flex justify-between items-end">
+            <h4 class="text-2xl xl:text-5xl">Cojușna</h4>
+            <p>320 m<sup>2</sup></p>
+            <p>5 dormitoare</p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./src/casa3.png" alt="casa3" class="size-full xl:size-[77vh]">
+          <div class="flex justify-between items-end">
+            <h4 class="text-2xl xl:text-5xl">Durlești</h4>
+            <p>760 m<sup>2</sup></p>
+            <p>3 dormitoare</p>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./src/casa4.png" alt="casa4" class="size-full xl:size-[77vh]">
+          <div class="flex justify-between items-end">
+            <h4 class="text-2xl xl:text-5xl">Ciocana</h4>
+            <p>250 m<sup>2</sup></p>
+            <p>4 dormitoare</p>
+          </div>
+        </div>
+        <div class="text-2xl hidden 2xl:block">
+        Încă mai multe postări <br> în curând...
+        </div>
+      </div>
+    </section>
+    <section id="s5" class="flex justify-center flex-col xl:block w-full h-fit px-[5.7vw]">
+      <h1 class="text-cBlue font-medium text-[30px] xl:text-[96px] mx-auto">Vrei să-ți construim o casă?</h1>
+      <h1 class="text-cBlue font-medium text-[30px] xl:text-[96px] flex items-center xl:ml-6 mx-auto">
+      <div class="h-[7px] w-[400px] bg-cBlue hidden xl:block"></div>
+      Contactează-ne acum
+      </h1>
+      <div class="w-full h-fit bg-cOrange text-white font-semibold px-24 py-9 flex justify-between lg:flex-row flex-col rounded-[36px]">
+        <div>
+          <h2 class="text-[48px] lg:text-6xl mb-4">Email:</h2>
+          <p class="text-[24px] lg:text-[32px] mb-5 2xl:mb-0">cons@vite.com</p>
+        </div>
+        <div>
+          <h2 class="text-[48px] lg:text-6xl mb-4">Telefon:</h2>
+          <p class="text-[24px] lg:text-[32px]">+373 (67) 92 15 03</p>
+          <p class="text-[24px] lg:text-[32px]">+373 (69) 14 24 73</p>
+          <p class="text-[24px] lg:text-[32px] mb-5 2xl:mb-0">+373 (67) 46 72 02</p>
+        </div>
+        <div>
+          <h2 class="text-[48px] lg:text-6xl mb-4">Adresa:</h2>
+          <p class="text-[24px] lg:text-[32px] mb-5 2xl:mb-0">str. Cuza Vodă 10</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="w-screen h-[310px] lg:py-0 py-[28px] flex flex-col xl:flex-row items-center justify-between px-[5.7vw] bg-cOrange mt-12">
+    <img src="./src/Logo.png" alt="logoFooter">
+    <p class="text-white font-semibold text-lg xl:-translate-x-20">copyright © 2024. All rights reserved</p>
+    <a href="#s1" class="border-2 rounded-full size-12 flex justify-center items-center">
+      <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.4264 32C10.4264 32.8691 11.1309 33.5736 12 33.5736C12.8691 33.5736 13.5736 32.8691 13.5736 32L10.4264 32ZM13.1127 0.887289C12.4982 0.272758 11.5018 0.272758 10.8873 0.887289L0.872916 10.9017C0.258384 11.5162 0.258384 12.5126 0.872916 13.1271C1.48745 13.7416 2.4838 13.7416 3.09833 13.1271L12 4.22541L20.9017 13.1271C21.5162 13.7416 22.5126 13.7416 23.1271 13.1271C23.7416 12.5126 23.7416 11.5162 23.1271 10.9017L13.1127 0.887289ZM13.5736 32L13.5736 2L10.4264 2L10.4264 32L13.5736 32Z" fill="white"/>
+      </svg>        
+    </a>
+  </footer>
+</body>
+</html>

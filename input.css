@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.a{
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.a::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #182853;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.a:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+.cont, .org, .burger div{
+  transition: 0.25s ease-in;
+}
+
+.cont:hover{
+  background-color: #182853;
+  color: #fff;
+}
+
+#s1{
+ height: calc(100vh - 122px);
+}
+
+.el{
+  border-radius: 36px 0 0 36px;
+}
+
+.cont svg path, .org svg path{
+  transition: all 0.25s ease-in;
+}
+
+.cont:hover svg path {
+  fill: #fff;
+}
+
+.org:hover{
+  background-color: white;
+  color: #E4622A;
+}
+
+.org:hover svg path {
+  fill: #E4622A;
+}
+
+.burger.open div:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.open div:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.open div:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+#carousel {
+  transition: transform 0.5s ease-in-out;
+}
